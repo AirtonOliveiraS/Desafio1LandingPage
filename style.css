@@ -1,0 +1,95 @@
+*{
+    margin: 0px;  
+    font-family: 'inter';
+}
+
+#menuSuperior{
+    
+    background-color: #303030;
+    color: white;
+    padding: 150px;
+    
+}
+
+#tituloMenuSuperior{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#subTituloMenuSuperior{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#menuInformacional{
+    
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 120px;
+}
+
+#menuImagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    align-items: center;
+    padding: 100px;
+}
+
+#textoMenuImagem{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    
+    }
+    
+#tituloFormulario{
+        
+        font-size: 25px;
+        
+        padding: 80px;
+        color: white;
+ }
+    
+    
+    input{
+        width: 300px;
+        height: 40px;
+        background-color: #FFFFFF;
+        margin: 15px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 10px;
+    
+    }
+    
+    button{
+    
+        width: 150px;
+        height: 40px;
+        background-color: #C07212;
+        color: #EAECE5;
+        border: 0px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        font-weight:bolder ;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #a16923;
+        color: white;
+        transform: translateY(-7px);
+        box-shadow: 0px 15px 20px #05103081;
+        transition-duration: 0.5s;
+    
+    }
+
+
+
